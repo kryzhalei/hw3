@@ -1,0 +1,10 @@
+from math import *
+
+def squaresum (n):
+    x = 1
+    s = 0
+
+    while x<=n:
+          s += (x**2)
+          x += 1
+    return print(s,"is the sum of the squares from 1 to",n)
